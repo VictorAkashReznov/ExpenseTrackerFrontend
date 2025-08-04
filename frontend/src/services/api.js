@@ -3,7 +3,7 @@ import axios from "axios";
 const api = axios.create({
   baseURL:
     import.meta.env.VITE_API_BASE_URL ||
-    "https://expense-tracker-backend-plum-eight.vercel.app",
+    "https://expense-tracker-backend-1guigoaau.vercel.app",
   timeout: 10000,
 });
 
